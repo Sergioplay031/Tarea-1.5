@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div>
+        <div class="instalaciones">
+            <div class="Club">
+                <a href="#Club">Club</a>
+            </div>
+            <div class="tarifas">
+                <a href="#Tarifas">Tarifas</a>
+            </div>
+            <div class="gim">
+                <img src="Imagenes/gim.png">
+            </div>
+            <div class="inscribete">
+                <label for="modalCheckbox" style="cursor: pointer;">
+                    Inscribete
+                </label>
+            </div>
+            <div class="contacto">
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+        <div>
+            <input type="checkbox" id="modalCheckbox" class="modal-checkbox">
+            <div class="modal">
+                <div class="modal-contenido">
+                    <label for="modalCheckbox" class="cerrar">x</label>
+                    <h2>Formulario de Inscripción</h2>
+                    <form>
+                        Nombre:
+                        <input type="text"  placeholder="Introduce tu nombre" size="40" required>
+                        <br>
+                        Apellidos:
+                        <input type="text"  placeholder="Introduce tus apellidos" size="40" required>
+                        <br>
+                        Correo Electrónico:
+                        <input type="email"  placeholder="Introduce tu correo electrónico" size="40" required>
+                        <br>
+                        Teléfono:
+                        <input type="tel"  placeholder="Introduce tu número de teléfono" size="40" required>
+                        <br>
+                        Provincia:
+                        <select  required>
+                            <option>Elige una Provincia</option>
+                            <option>Álava/Araba</option>
+                            <option>Albacete</option>
+                            <option>Alicante</option>
+                            <option>Almería</option>
+                            <option>Asturias</option>
+                            <option>Ávila</option>
+                            <option>Badajoz</option>
+                            <option>Baleares</option>
+                            <option>Barcelona</option>
+                            <option>Burgos</option>
+                            <option>Cáceres</option>
+                            <option>Cádiz</option>
+                            <option>Cantabria</option>
+                            <option>Castellón</option>
+                            <option>Ceuta</option>
+                            <option>Ciudad Real</option>
+                            <option>Córdoba</option>
+                            <option>Cuenca</option>
+                            <option>Gerona/Girona</option>
+                            <option>Granada</option>
+                            <option>Guadalajara</option>
+                            <option>Guipúzcoa/Gipuzkoa</option>
+                            <option>Huelva</option>
+                            <option>Huesca</option>
+                            <option>Jaén</option>
+                            <option>La Coruña/A Coruña</option>
+                            <option>La Rioja</option>
+                            <option>Las Palmas</option>
+                            <option>León</option>
+                            <option>Lérida/Lleida</option>
+                            <option>Lugo</option>
+                            <option>Madrid</option>
+                            <option>Málaga</option>
+                            <option>Melilla</option>
+                            <option>Murcia</option>
+                            <option>Navarra</option>
+                            <option>Orense/Ourense</option>
+                            <option>Palencia</option>
+                            <option>Pontevedra</option>
+                            <option>Salamanca</option>
+                            <option>Segovia</option>
+                            <option>Sevilla</option>
+                            <option>Soria</option>
+                            <option>Tarragona</option>
+                            <option>Tenerife</option>
+                            <option>Teruel</option>
+                            <option>Toledo</option>
+                            <option>Valencia</option>
+                            <option>Valladolid</option>
+                            <option>Vizcaya/Bizkaia</option>
+                            <option>Zamora</option>
+                            <option>Zaragoza</option>
+                        </select>
+                        <br>
+                        Codigo postal:
+                        <input type="number" placeholder="Introduzca el codigo postal" style="width: 45%;" required>
+                        <br>
+                        Forma de cobro:
+                        <select required>
+                            <option>Efectivo</option>
+                            <option>Transferencia</option>
+                            <option>Cobro bancario o Bizum</option>
+                        </select>
+                        <br>
+                        Numero de cuenta: 
+                        <input type="text" placeholder="Introduce tu numero de cuenta" size="40" required>
+                        <br>
+                        <input type="checkbox"name="deporte_comun" required>Deporte comunes
+                        <br>
+                        <input type="checkbox"name="deporte_contacto" required>Deporte contacto
+                        <br>
+                        <input type="checkbox"name="deporte_riesgo" required>Deporte de riesgo
+                        <br>
+                        <input type="radio" name="turno" required>Mañana
+                        <br>
+                        <input type="radio" name="turno" required>Tarde
+                        <br>
+                        <input type="radio" name="turno" required>Ambos
+                        <br>
+                        <p style="margin: 0%;">
+                            Comentario que dese realizar
+                        </p>
+                        <textarea name="mensaje" id="mensaje" rows="7" cols="65" maxlength="400"></textarea>
+                        <br>
+                        <input type="submit" value="Enviar" style="margin: 5px;">
+                        <input type="reset" value="Resetear" style="margin: 5px;">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="imagen1">
+        </div>
+        <div class="fit">
+            VivaFit
+        </div>
+        <div class="porque" id="Club">
+            <h1>
+                ¿Por qué VivaFit?
+            </h1>
+        </div>
+        <div class="columnas">
+            <div class="bloque1">
+                <div class="titulo">
+                    <img src="Imagenes/A1.5.1.png">
+                    <h3>
+                        SIN PERMANENCIA
+                    </h3>
+                </div>
+                <P>
+                    Así es, en VivaFit tienes la máxima flexibilidad posible para darte de baja cuando desees ya que no tenemos permanencia.
+                </P>
+            </div>
+            <div class="bloque2">
+                <div class="titulo">
+                    <img src="Imagenes/A2.5.png">
+                    <h3>
+                        AMPLIAS INSTALACIONES
+                    </h3>
+                </div>
+                <p>
+                    Te ofrecemos 7 zonas diferentes de entrenamiento para que hagas tu rutina como más te gusta.
+                </p>
+            </div>
+        </div>
+        <div class="quieres" id="contacto">
+            <h1>
+                ¿Quieres estar al día de todas las novedades?
+            </h1>
+        </div>
+        <div class="email">
+            <div class="dejanos">
+                <h2>
+                    Déjanos tu contacto y hazte además con 
+                    <div class="gratuito">
+                        un pase gratuito para entrenar.
+                    </div>
+                </h2>
+            </div>
+        </div>
+        <div class="datos_cliente">
+            <form>
+                <input type="email" placeholder="Introduce el correo electronico" size="60" required>
+                <br>
+                <select required>
+                    <option>Elige una Provincia</option>
+                    <option>Álava/Araba</option>
+                    <option>Albacete</option>
+                    <option>Alicante</option>
+                    <option>Almería</option>
+                    <option>Asturias</option>
+                    <option>Ávila</option>
+                    <option>Badajoz</option>
+                    <option>Baleares</option>
+                    <option>Barcelona</option>
+                    <option>Burgos</option>
+                    <option>Cáceres</option>
+                    <option>Cádiz</option>
+                    <option>Cantabria</option>
+                    <option>Castellón</option>
+                    <option>Ceuta</option>
+                    <option>Ciudad Real</option>
+                    <option>Córdoba</option>
+                    <option>Cuenca</option>
+                    <option>Gerona/Girona</option>
+                    <option>Granada</option>
+                    <option>Guadalajara</option>
+                    <option>Guipúzcoa/Gipuzkoa</option>
+                    <option>Huelva</option>
+                    <option>Huesca</option>
+                    <option>Jaén</option>
+                    <option>La Coruña/A Coruña</option>
+                    <option>La Rioja</option>
+                    <option>Las Palmas</option>
+                    <option>León</option>
+                    <option>Lérida/Lleida</option>
+                    <option>Lugo</option>
+                    <option>Madrid</option>
+                    <option>Málaga</option>
+                    <option>Melilla</option>
+                    <option>Murcia</option>
+                    <option>Navarra</option>
+                    <option>Orense/Ourense</option>
+                    <option>Palencia</option>
+                    <option>Pontevedra</option>
+                    <option>Salamanca</option>
+                    <option>Segovia</option>
+                    <option>Sevilla</option>
+                    <option>Soria</option>
+                    <option>Tarragona</option>
+                    <option>Tenerife</option>
+                    <option>Teruel</option>
+                    <option>Toledo</option>
+                    <option>Valencia</option>
+                    <option>Valladolid</option>
+                    <option>Vizcaya/Bizkaia</option>
+                    <option>Zamora</option>
+                    <option>Zaragoza</option>
+                </select>
+                <br>
+                <input type="text" placeholder="Introduce el número de telefono" size="60" required>
+                <br>
+                <input type="checkbox">Consiento la recepción de publicidad, Promociones y Noticias.
+                <br>
+                <input type="checkbox">He leído y acepto <u>la Política de Privacidad y Protección de Datos (RGPD).</u>
+                <div class="botón_aceptar">
+                    <input type="submit" value="Aceptar">
+                </div>
+            </form>
+        </div>
+        <div class="debo_inscribirme">
+            <h2>
+                ¿Qué debo tener en cuenta antes de inscribirme?
+            </h2>
+        </div>
+        <div class="columnas1">
+            <div class="bloque3">
+                <div class="titulo">
+                    <img src="Imagenes/Zona TOS.png">
+                    <h3>
+                        BUSCA LOS CLUBES MÁS CERCANOS A TI
+                    </h3>
+                </div>
+                <p>
+                    Cerca de tu casa, junto a tu trabajo etc. Encuentra el que más se adapte a tu día a día.
+                </p>
+            </div>
+            <div class="bloque4">
+                <div class="titulo">
+                    <img src="Imagenes/Clase de GAP.png">
+                    <h3>
+                        DESCUBRE SUS ACTIVIDADES DIRIGIDAS
+                    </h3>
+                </div>
+                <p>
+                    El mejor cycling, sesiones funcionales que te pondrán a prueba y una amplia variedad de actividades Les Mills®, ¡entre otras muchas clases!
+                </p>
+            </div>
+        </div>
+        <div class="tar" id="Tarifas">
+            <h1>
+                Aqui se encontrara las diferentes tarifas
+            </h1>
+        </div>
+        <div class="columnas2">
+            <div class="bloque5">
+                <div class="titulo">
+                    <h3>
+                        Cuota CLUB
+                    </h3>
+                </div>
+                <div class="subtitulo">
+                    <h3>
+                        Inscríbete por 29,90€
+                    </h3>
+                </div>
+                <div>
+                    <p>
+                        ✓  Entrena en tu gimnasio principal
+                    </p>
+                    <p>
+                        ✓  Reserva con 24h antelación 1 clase 
+                    </p>
+                    <p>
+                        ✓  Acceso ilimitado
+                    </p>
+                </div>
+            </div>
+            <div class="bloque6">
+                <div class="titulo">
+                    <h3>
+                        Cuota CLUB
+                    </h3>
+                </div>
+                <div class="subtitulo">
+                    <h3>
+                        Inscríbete por 40,90€
+                    </h3>
+                </div>
+                <div>
+                    <p>
+                        ✓  Entrena en tu gimnasio principal
+                    </p>
+                    <p>
+                        ✓  Reserva con 24h antelación 1 clase 
+                    </p>
+                    <p>
+                        ✓  Acceso ilimitado
+                    </p>
+                    <p>
+                        ✓  Planes de nutrición personalizados y recetas
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
